@@ -9,6 +9,10 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 import java.io.IOException;
 
+/**
+ * 按找总流量排序
+ * 对flowCount的结果再进行mapreduce
+ */
 public class FlowSortDriver {
     public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
         // 1 获取配置信息，或者job对象实例
