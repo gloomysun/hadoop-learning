@@ -113,14 +113,16 @@ public class HbaseAPI {
     }
 
     public static void main(String[] args) throws IOException {
-        String tableName = "testTable";
-        String[] colunmFamily = new String[]{"cf1", "cf2"};
-        createTable(tableName, colunmFamily);
+//        String tableName = "testTable";
+//        String[] colunmFamily = new String[]{"cf1", "cf2"};
+//        createTable(tableName, colunmFamily);
+//
+////        dropTable(tableName);
+//
+////        addRowData(tableName, "row1001", "cf1", "lie1", "cf1的值啊");
+//
+//        getAllRows(tableName);
 
-//        dropTable(tableName);
-
-//        addRowData(tableName, "row1001", "cf1", "lie1", "cf1的值啊");
-
-        getAllRows(tableName);
+        getAllRows("student");
     }
 }
